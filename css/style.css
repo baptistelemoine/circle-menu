@@ -1,0 +1,23 @@
+
+html {
+	min-height: 100%;
+}
+
+body {
+	background: rgb(121,139,170); /* Old browsers */	
+	background-image: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 70%),
+	url(../images/carbon.png);	
+}
+
+
+div#container {width:80%; margin-left: auto; margin-right: auto; text-align: center;}
+div.item {width:220px; display: inline-block; }
+div.main-nav {display:none;}
+
+/*Change or add colors and circle sizes here*/
+li.purple {color: #7c5697; width:200px;}
+li.green {color: #94c25e; width:200px;}
+li.blue {color: #a7e2ff; width:200px;}
+li.yellow {color: #ffde50; width:200px;}
+
+.title {font-family: 'Dancing Script'; font-size: 36px; color: #fff;}
